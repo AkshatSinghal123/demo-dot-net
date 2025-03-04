@@ -1,4 +1,4 @@
-using System; // Add this line
+using System; // Ensure this is included
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
@@ -18,10 +18,6 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-// Ensure the app listens on the dynamically assigned Azure port
-var port = Environment.GetEnvironmentVariable("PORT") ?? "8080"; // Default to 8080 for Azure
-app.Urls.Add($"http://*:{port}");
-
 // Middleware setup
 app.UseHttpsRedirection();
 app.UseStaticFiles();
@@ -29,4 +25,5 @@ app.UseRouting();
 app.UseAuthorization();
 app.MapRazorPages();
 
+// **DO NOT** manually specify a port for Azure App Service
 app.Run();
