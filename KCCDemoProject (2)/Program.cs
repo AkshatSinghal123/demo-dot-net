@@ -18,9 +18,9 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-// Ensure the app listens on all network interfaces (important for EC2 access)
-var port = Environment.GetEnvironmentVariable("PORT") ?? "5000"; // Default to port 5000
-app.Urls.Add($"http://0.0.0.0:{port}");
+// Ensure the app listens on the dynamically assigned Azure port
+var port = Environment.GetEnvironmentVariable("PORT") ?? "8080"; // Default to 8080 for Azure
+app.Urls.Add($"http://*:{port}");
 
 // Middleware setup
 app.UseHttpsRedirection();
