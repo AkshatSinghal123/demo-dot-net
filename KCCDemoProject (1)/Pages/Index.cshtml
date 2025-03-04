@@ -1,0 +1,43 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Welcome";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - KCC Manufacturing</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/site.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="container text-center mt-5">
+        <h1 class="display-4 text-primary">Welcome to KCC Manufacturing Demo Project</h1>
+        <p class="lead">Team Overview</p>
+        <div class="row mt-4">
+            <div class="col-md-4 mb-4">
+                <div class="team-card">APP-dev</div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="team-card">Infra-Sec</div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="team-card">PMO</div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="team-card">NPD</div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="team-card">Epicor</div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="team-card">R&D</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
