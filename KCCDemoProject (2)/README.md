@@ -3,21 +3,20 @@
 ## Project Structure
 ```
 KCCDemoProject/
-├── KCCDemoProject.sln
-├── KCCDemoProject/
-│   ├── Pages/
-│   │   ├── Index.cshtml
-│   ├── wwwroot/
-│   │   ├── css/
-│   │   │   ├── site.css
-│   ├── Program.cs
-│   ├── appsettings.json
+├── KCCDemoProject.csproj
+├── Program.cs
+├── Pages/
+│   ├── Index.cshtml
+│   ├── Index.cshtml.cs
+├── wwwroot/
+│   ├── css/
+│   │   ├── site.css
 └── README.md
 ```
 
 ## How to Run
 1. Install .NET 6 SDK: [Download here](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
-2. Clone or create the project structure as above.
+2. Clone or extract the project.
 3. Navigate to the project folder:
    ```sh
    cd KCCDemoProject
