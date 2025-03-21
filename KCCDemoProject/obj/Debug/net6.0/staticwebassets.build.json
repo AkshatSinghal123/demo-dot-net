@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "Hash": "bWHgMC5B7rK6R6nbo4Ok0G0PrZorVHupoTbCMHqmzLw=",
+  "Source": "KCCDemoProject",
+  "BasePath": "_content/KCCDemoProject",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "KCCDemoProject\\wwwroot",
+      "Source": "KCCDemoProject",
+      "ContentRoot": "C:\\Users\\jaya.srivastava\\Desktop\\KCCDemoProject\\wwwroot\\",
+      "BasePath": "_content/KCCDemoProject",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\jaya.srivastava\\Desktop\\KCCDemoProject\\wwwroot\\css\\site.css",
+      "SourceId": "KCCDemoProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jaya.srivastava\\Desktop\\KCCDemoProject\\wwwroot\\",
+      "BasePath": "_content/KCCDemoProject",
+      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "df4tebflde",
+      "Integrity": "qcVizfu2RzMZTrU69Eo9A0YxqMahhilWq0YhH5T1dhQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\jaya.srivastava\\Desktop\\KCCDemoProject\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "442"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qcVizfu2RzMZTrU69Eo9A0YxqMahhilWq0YhH5T1dhQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 08:56:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qcVizfu2RzMZTrU69Eo9A0YxqMahhilWq0YhH5T1dhQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.df4tebflde.css",
+      "AssetFile": "C:\\Users\\jaya.srivastava\\Desktop\\KCCDemoProject\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "442"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qcVizfu2RzMZTrU69Eo9A0YxqMahhilWq0YhH5T1dhQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 08:56:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "df4tebflde"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qcVizfu2RzMZTrU69Eo9A0YxqMahhilWq0YhH5T1dhQ="
+        }
+      ]
+    }
+  ]
+}
